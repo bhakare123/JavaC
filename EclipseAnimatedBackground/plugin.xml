@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="eclipseanimatedbackground.Application">
+         </run>
+      </application>
+   </extension>
+
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            class="eclipseanimatedbackground.Perspective"
+            name="RCP Perspective"
+            id="EclipseAnimatedBackground.perspective">
+      </perspective>
+   </extension>
+
+   <extension
+         point="org.eclipse.ui.startup">
+      <startup class="com.eclipse.animation.AnimatedBackground"/>
+   </extension>
+
+</plugin>

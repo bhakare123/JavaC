@@ -1,0 +1,29 @@
+//WAJP to print number is Perfect or Not 6 factor are except 6 are 1+2+3 = 6 then it is perfect Number 
+
+package com.methodOrFunction.returntype.program;
+
+public class PerfectNumber 
+{
+	public static boolean perfectNum(int num)
+	{
+		int sum =0;
+		for(int i=1; i<num; i++)
+		{
+			if(num%i==0)
+			{
+			   sum+=i;	
+			}
+		}	
+		return sum == num;
+	}
+	
+	
+	public static void main(String[] args) 
+	{
+		if(perfectNum(28))
+			System.out.println("Perfect Number");
+		else
+			System.out.println("Not Perfect Number");
+	}
+
+}

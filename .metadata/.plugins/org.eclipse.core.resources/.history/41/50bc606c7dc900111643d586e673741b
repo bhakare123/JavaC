@@ -1,0 +1,25 @@
+package com.methodOrFunction.returntype.program;
+
+public class PerfectNumber1to100 
+{
+	public static void isPerfectnum(int num)
+	{
+		int sum =0;
+		
+		for (int i=1; i<num; i++)
+		{
+			if(num%i==0)
+			{
+				sum+=i;
+			}
+		}
+		
+		System.out.println(sum == num);
+	}
+	
+	public static void main(String[] args) 
+	{
+		isPerfectnum(8);
+	}
+
+}

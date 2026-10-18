@@ -1,0 +1,23 @@
+package com.methodOrFunction.returntype;
+
+public class Demo4 
+{
+  public static void main(String[] args) 
+  {
+	System.out.println("Maian Started");
+	System.out.println("Result = "+Div(200));
+  }
+  
+  public static float mul(int a ,int b)
+  {
+	  return a*b;
+  }
+  
+  public static double Div(int b)
+  {
+	  int res =(int) mul(10,2);
+	  
+	  return b/res;
+	  
+  }
+}

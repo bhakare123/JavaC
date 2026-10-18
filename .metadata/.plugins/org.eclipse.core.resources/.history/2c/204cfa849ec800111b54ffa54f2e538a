@@ -1,0 +1,25 @@
+package com.methodOrFunction.returntype;
+
+public class Demo2 
+{ 
+	public static void main(String[] args) 
+	{
+		int res = Add();
+		System.out.println("Result = "+res);
+		int res2 = Add2();
+		System.out.println(res2);
+	}
+	
+	public static int Add()
+	{
+		char ch = 'A', ch2 = 'A';
+		return ch + ch2;
+	}
+	
+	public static int Add2()
+	{
+		double a = 40.30 , b = 10.40;
+		return (int) (a/b);
+	}
+
+}

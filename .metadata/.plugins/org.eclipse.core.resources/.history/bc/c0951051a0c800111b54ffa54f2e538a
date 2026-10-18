@@ -1,0 +1,34 @@
+package com.methodOrFunction.returntype;
+
+public class Demo2 
+{ 
+	public static void main(String[] args) 
+	{
+		int res = Add();
+		System.out.println("Result = "+res);
+		int res2 = Div();
+		System.out.println(res2);
+		char res3 = Mul();
+		System.out.println(res3);
+	}
+	
+	public static int Add()
+	{
+		char ch = 'A', ch2 = 'A';
+		return ch + ch2;
+	}
+	
+	public static int Div()
+	{
+		double a = 40.30 , b = 10.40;
+		double res = a/b;
+		return (int) res;
+	}
+	
+	public static int Mul()
+	{
+	   int a = 20, b = 10;
+	   return a*b;
+	}
+
+}

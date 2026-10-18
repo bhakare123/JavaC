@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.pde.ui.RuntimeWorkbench">
+    <booleanAttribute key="append.args" value="true"/>
+    <stringAttribute key="application" value="EclipseAnimatedBackground.application"/>
+    <booleanAttribute key="askclear" value="true"/>
+    <booleanAttribute key="automaticAdd" value="true"/>
+    <booleanAttribute key="automaticValidate" value="true"/>
+    <stringAttribute key="checked" value="[NONE]"/>
+    <booleanAttribute key="clearws" value="false"/>
+    <booleanAttribute key="default" value="false"/>
+    <stringAttribute key="location" value="${workspace_loc}/../runtime-EclipseAnimatedBackground.application"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-os ${target.os} -ws ${target.ws} -arch ${target.arch} -nl ${target.nl} -consoleLog"/>
+    <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.pde.ui.workbenchClasspathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dorg.eclipse.swt.graphics.Resource.reportNonDisposed=true"/>
+    <booleanAttribute key="pde.generated.config" value="true"/>
+    <stringAttribute key="pde.version" value="3.3"/>
+    <setAttribute key="selected_target_bundles">
+        <setEntry value="com.github.weisj.jsvg*2.1.0"/>
+        <setEntry value="com.ibm.icu*78.3.0"/>
+        <setEntry value="com.sun.jna*5.18.1.v20251001-0800"/>
+        <setEntry value="com.sun.jna.platform*5.18.1"/>
+        <setEntry value="jakarta.annotation-api*3.0.0"/>
+        <setEntry value="jakarta.inject.jakarta.inject-api*2.0.1"/>
+        <setEntry value="org.apache.aries.spifly.dynamic.bundle*1.3.7"/>
+        <setEntry value="org.apache.batik.constants*1.19.0.v20250506-1400"/>
+        <setEntry value="org.apache.batik.css*1.19.0.v20250506-1400"/>
+        <setEntry value="org.apache.batik.i18n*1.19.0.v20250506-1400"/>
+        <setEntry value="org.apache.batik.util*1.19.0.v20250506-1400"/>
+        <setEntry value="org.apache.commons.commons-io*2.22.0"/>
+        <setEntry value="org.apache.commons.commons-logging*1.3.6"/>
+        <setEntry value="org.apache.felix.gogo.command*1.1.2"/>
+        <setEntry value="org.apache.felix.gogo.runtime*1.1.6"/>
+        <setEntry value="org.apache.felix.gogo.shell*1.1.4"/>
+        <setEntry value="org.apache.felix.scr*2.2.18"/>
+        <setEntry value="org.apache.xmlgraphics*2.11.0.v20250506-1400"/>
+        <setEntry value="org.eclipse.ant.core*3.7.900.v20260427-0433"/>
+        <setEntry value="org.eclipse.core.commands*3.12.500.v20251103-0733"/>
+        <setEntry value="org.eclipse.core.contenttype*3.9.800.v20251105-1620"/>
+        <setEntry value="org.eclipse.core.databinding*1.13.700.v20251023-1511"/>
+        <setEntry value="org.eclipse.core.databinding.observable*1.13.500.v20251103-0735"/>
+        <setEntry value="org.eclipse.core.databinding.property*1.10.500.v20250916-0931"/>
+        <setEntry value="org.eclipse.core.expressions*3.9.600.v20260514-2026"/>
+        <setEntry value="org.eclipse.core.filesystem*1.11.400.v20251107-0507"/>
+        <setEntry value="org.eclipse.core.jobs*3.15.800.v20260325-1353"/>
+        <setEntry value="org.eclipse.core.resources*3.24.0.v20260518-1150"/>
+        <setEntry value="org.eclipse.core.runtime*3.34.200.v20251220-0953"/>
+        <setEntry value="org.eclipse.core.variables*3.6.800.v20260427-0433"/>
+        <setEntry value="org.eclipse.e4.core.commands*1.1.800.v20260430-1313"/>
+        <setEntry value="org.eclipse.e4.core.contexts*1.13.200.v20250609-0437"/>
+        <setEntry value="org.eclipse.e4.core.di*1.9.800.v20260504-1717"/>
+        <setEntry value="org.eclipse.e4.core.di.annotations*1.8.500.v20260307-0017"/>
+        <setEntry value="org.eclipse.e4.core.di.extensions*0.18.300.v20240413-1529"/>
+        <setEntry value="org.eclipse.e4.core.di.extensions.supplier*0.17.1100.v20260430-1313"/>
+        <setEntry value="org.eclipse.e4.core.services*2.5.400.v20260430-1313"/>
+        <setEntry value="org.eclipse.e4.emf.xpath*0.6.100.v20251103-0738"/>
+        <setEntry value="org.eclipse.e4.ui.bindings*0.15.100.v20260430-1313"/>
+        <setEntry value="org.eclipse.e4.ui.css.core*0.14.700.v20260516-1214"/>
+        <setEntry value="org.eclipse.e4.ui.css.swt*0.17.0.v20260516-1214"/>
+        <setEntry value="org.eclipse.e4.ui.css.swt.theme*0.15.100.v20260507-0340"/>
+        <setEntry value="org.eclipse.e4.ui.di*1.5.700.v20250917-0901"/>
+        <setEntry value="org.eclipse.e4.ui.dialogs*1.7.100.v20260326-1607"/>
+        <setEntry value="org.eclipse.e4.ui.model.workbench*2.4.800.v20260307-0637"/>
+        <setEntry value="org.eclipse.e4.ui.services*1.6.700.v20260430-1313"/>
+        <setEntry value="org.eclipse.e4.ui.swt.win32*1.2.400.v20260430-1313"/>
+        <setEntry value="org.eclipse.e4.ui.widgets*1.5.0.v20251217-1052"/>
+        <setEntry value="org.eclipse.e4.ui.workbench*1.18.300.v20260430-1313"/>
+        <setEntry value="org.eclipse.e4.ui.workbench.addons.swt*1.6.100.v20260430-1313"/>
+        <setEntry value="org.eclipse.e4.ui.workbench.renderers.swt*0.18.0.v20260508-0707"/>
+        <setEntry value="org.eclipse.e4.ui.workbench.swt*0.18.100.v20260430-1313"/>
+        <setEntry value="org.eclipse.e4.ui.workbench3*0.18.0.v20251216-1230"/>
+        <setEntry value="org.eclipse.emf.common*2.45.0.v20260311-1301"/>
+        <setEntry value="org.eclipse.emf.ecore*2.42.0.v20251210-1145"/>
+        <setEntry value="org.eclipse.emf.ecore.change*2.17.0.v20250910-1205"/>
+        <setEntry value="org.eclipse.emf.ecore.xmi*2.40.0.v20251210-1145"/>
+        <setEntry value="org.eclipse.equinox.app*1.7.600.v20251211-1038"/>
+        <setEntry value="org.eclipse.equinox.bidi*1.5.400.v20250715-0436"/>
+        <setEntry value="org.eclipse.equinox.common*3.20.400.v20260512-1534"/>
+        <setEntry value="org.eclipse.equinox.event*1.7.300.v20250518-0609"/>
+        <setEntry value="org.eclipse.equinox.preferences*3.12.100.v20251111-0704"/>
+        <setEntry value="org.eclipse.equinox.registry*3.12.600.v20250906-0651"/>
+        <setEntry value="org.eclipse.help*3.11.100.v20260408-1441"/>
+        <setEntry value="org.eclipse.jetty.servlet-api*4.0.9"/>
+        <setEntry value="org.eclipse.jface*3.39.100.v20260422-1115"/>
+        <setEntry value="org.eclipse.jface.databinding*1.16.0.v20251216-1230"/>
+        <setEntry value="org.eclipse.orbit.xml-apis-ext*1.0.0.v20240917-0534"/>
+        <setEntry value="org.eclipse.osgi*3.24.200.v20260515-1403"/>
+        <setEntry value="org.eclipse.osgi.compatibility.state*1.3.0.v20251022-1724"/>
+        <setEntry value="org.eclipse.swt*3.134.0.v20260515-1429"/>
+        <setEntry value="org.eclipse.swt.svg*3.133.0.v20260507-1152"/>
+        <setEntry value="org.eclipse.swt.win32.win32.x86_64*3.134.0.v20260515-1429"/>
+        <setEntry value="org.eclipse.ui*3.209.0.v20260421-1151"/>
+        <setEntry value="org.eclipse.ui.workbench*3.139.0.v20260601-0955"/>
+        <setEntry value="org.eclipse.urischeme*1.3.600.v20251023-1158"/>
+        <setEntry value="org.objectweb.asm*9.9.1"/>
+        <setEntry value="org.objectweb.asm.commons*9.9.1"/>
+        <setEntry value="org.objectweb.asm.tree*9.9.1"/>
+        <setEntry value="org.objectweb.asm.tree.analysis*9.9.1"/>
+        <setEntry value="org.objectweb.asm.util*9.9.1"/>
+        <setEntry value="org.osgi.service.cm*1.6.1.202109301733"/>
+        <setEntry value="org.osgi.service.component*1.5.1.202212101352"/>
+        <setEntry value="org.osgi.service.event*1.4.1.202109301733"/>
+        <setEntry value="org.osgi.service.metatype*1.4.1.202109301733"/>
+        <setEntry value="org.osgi.service.prefs*1.1.2.202109301733"/>
+        <setEntry value="org.osgi.util.function*1.2.0.202109301733"/>
+        <setEntry value="org.osgi.util.promise*1.3.0.202212101352"/>
+        <setEntry value="slf4j.api*2.0.18"/>
+        <setEntry value="slf4j.simple*2.0.18"/>
+    </setAttribute>
+    <setAttribute key="selected_workspace_bundles">
+        <setEntry value="EclipseAnimatedBackground*1.0.0.qualifier"/>
+    </setAttribute>
+</launchConfiguration>
