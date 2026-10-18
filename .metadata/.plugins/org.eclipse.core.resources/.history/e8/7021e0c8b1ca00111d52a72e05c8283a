@@ -1,0 +1,27 @@
+package com.methodOverloading;
+
+import java.util.Scanner;
+
+public class Instagram 
+{
+   public static void Login(String username, String Password)
+   {
+	   System.out.println("Login Successful by username, password");
+   }
+   public static void Login(String email, int otp)
+   {
+	   System.out.println("Login Successful by Email, OTP");
+   }
+   public static void Login(long phone, int otp)
+   {
+	   System.out.println("Login Successful by PhoneNo , OTP");
+   }
+   
+   public static void main(String[] args) 
+   {
+	  Scanner sc = new Scanner(System.in);
+	  System.out.println("Enter a Choic");
+	  System.out.println("\n1. UserName & Password \n 2. Email & OTP \n 3. PhoneNo & OTP");
+	  
+   }
+}
