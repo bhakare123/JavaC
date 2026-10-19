@@ -1,0 +1,22 @@
+package com.methodRecursion;
+
+public class Demo3 
+{
+  public static void main(String[] args) 
+  {
+	 System.out.println("Main method Started");
+	 Number(1);
+	 System.out.println("Main method ended");
+  }
+  public static void Number(int num)
+  {
+	  if(num>5)
+	  {
+		  return ;
+	  }
+	  System.out.println("Number ----------->"+num);
+	  num++;
+	  Number(num);
+	  System.out.println("Java ----------->"+num);
+  }
+}

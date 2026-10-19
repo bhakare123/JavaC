@@ -530,3 +530,15 @@
 {"logTime": "1019/132931", "level": "INFO", "message": "Preference changed: name=muid.last_sync, new_value=\"13436890171643851\", source=unknown"}
 {"logTime": "1019/132931", "level": "INFO", "message": "Preference changed: name=commerce_daily_metrics_last_update_time, new_value=\"13436890171646440\", source=unknown"}
 {"logTime": "1019/132941", "level": "INFO", "message": "PrefStore write completed: store=4, success=true"}
+{"logTime": "1019/135508", "level": "INFO", "message": "Preference changed: name=profile.content_settings.exceptions.site_engagement, new_value=[object], source=unknown"}
+{"logTime": "1019/135508", "level": "INFO", "message": "Preference changed: name=profile.last_engagement_time, new_value=\"13436862908267968\", source=unknown"}
+{"logTime": "1019/144734", "level": "INFO", "message": "Preference changed: name=language_dwell_time_average, new_value=[object], source=unknown"}
+{"logTime": "1019/144734", "level": "INFO", "message": "Preference changed: name=language_usage_count, new_value=[object], source=unknown"}
+{"logTime": "1019/144734", "level": "INFO", "message": "Preference changed: name=language_model_counters, new_value=[object], source=unknown"}
+{"logTime": "1019/144744", "level": "INFO", "message": "PrefStore write completed: store=4, success=true"}
+{"logTime": "1019/145155", "level": "INFO", "message": "Preference changed: name=language_dwell_time_average, new_value=[object], source=unknown"}
+{"logTime": "1019/145155", "level": "INFO", "message": "Preference changed: name=language_usage_count, new_value=[object], source=unknown"}
+{"logTime": "1019/145155", "level": "INFO", "message": "Preference changed: name=language_model_counters, new_value=[object], source=unknown"}
+{"logTime": "1019/145205", "level": "INFO", "message": "PrefStore write completed: store=4, success=true"}
+{"logTime": "1019/150057", "level": "INFO", "message": "Preference changed: name=profile.content_settings.exceptions.site_engagement, new_value=[object], source=unknown"}
+{"logTime": "1019/150057", "level": "INFO", "message": "Preference changed: name=profile.last_engagement_time, new_value=\"13436866857776494\", source=unknown"}

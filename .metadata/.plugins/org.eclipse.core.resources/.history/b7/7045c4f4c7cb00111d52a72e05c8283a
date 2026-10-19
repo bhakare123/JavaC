@@ -1,0 +1,31 @@
+package com.methodRecursion;
+
+import java.util.Scanner;
+
+public class reverseNum 
+{
+  public static void main(String[] args) 
+  {
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Eneter a number ");
+	int num = sc.nextInt();
+	int rev = 0;
+	
+	reves(num, rev);
+
+  }
+  
+  public static void reves(int num, int rev)
+  {
+	  if (num ==0)
+		  return;
+	  
+	  int rem = num%10;
+	  rev = rev*10+rem;
+	  num = num/10;
+	  reves(num,rev);
+	  System.out.println(rev+" "+num);
+	  
+	  return ;
+  }
+}

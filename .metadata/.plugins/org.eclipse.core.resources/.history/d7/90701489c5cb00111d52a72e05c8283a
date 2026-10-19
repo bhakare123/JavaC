@@ -1,0 +1,22 @@
+package com.methodRecursion;
+
+public class DemoBaseCondition 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Main Method Started");
+		Java(5);
+		System.out.println("Main Method Ended");
+	}
+	public static void Java(int num)
+	{
+		if(num==0)
+		{
+			return;
+		}
+		System.out.println("Java-------------->"+num);
+		num--;
+		Java(num);
+	}
+
+}

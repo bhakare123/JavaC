@@ -1,0 +1,28 @@
+package com.methodRecursion;
+
+import java.util.Scanner;
+
+public class NaturalNumber 
+{
+  public static void main(String[] args) 
+  {
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter a starting number");
+	int str = sc.nextInt();
+	
+	System.out.println("Enter a Ending number");
+	int end = sc.nextInt();
+	
+	naturalNum(str, end);
+  }
+  public static void naturalNum(int str, int end)
+  {
+	  if(str>end)
+	  {
+		  return ;
+	  }
+	  
+	  System.out.println(str);
+	  naturalNum(++str, end);
+  }
+}
