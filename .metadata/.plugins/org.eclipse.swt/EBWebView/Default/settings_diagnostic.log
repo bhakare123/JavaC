@@ -523,3 +523,10 @@
 {"logTime": "1018/051131", "level": "INFO", "message": "Preference changed: name=language_model_counters, new_value=[object], source=unknown"}
 {"logTime": "1018/051318", "level": "INFO", "message": "Preference changed: name=language_model_counters, new_value=[object], source=unknown"}
 {"logTime": "1018/051320", "level": "INFO", "message": "Preference changed: name=language_model_counters, new_value=[object], source=unknown"}
+{"logTime": "1019/132931", "level": "INFO", "message": "Preference changed: name=gaia_cookie.periodic_report_time_2, new_value=\"13436890171536877\", source=unknown"}
+{"logTime": "1019/132931", "level": "INFO", "message": "Preference changed: name=account_tracker_service_last_update, new_value=\"13436890171620513\", source=unknown"}
+{"logTime": "1019/132931", "level": "INFO", "message": "Preference changed: name=bookmark.storage_computation_last_update, new_value=\"13436890171636980\", source=unknown"}
+{"logTime": "1019/132931", "level": "INFO", "message": "Preference changed: name=signin.account_preview_data_last_update, new_value=\"13436890171639549\", source=unknown"}
+{"logTime": "1019/132931", "level": "INFO", "message": "Preference changed: name=muid.last_sync, new_value=\"13436890171643851\", source=unknown"}
+{"logTime": "1019/132931", "level": "INFO", "message": "Preference changed: name=commerce_daily_metrics_last_update_time, new_value=\"13436890171646440\", source=unknown"}
+{"logTime": "1019/132941", "level": "INFO", "message": "PrefStore write completed: store=4, success=true"}

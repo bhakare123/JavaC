@@ -1,0 +1,19 @@
+package com.methodRecursion;
+
+//Stack Overflow Error
+
+public class Demo 
+{
+  public static void main(String arg[])
+  {
+	  System.out.println("Main Started");
+	  Java();
+	  System.out.println("Main Ended");
+  }
+  public static void Java()
+  {
+	  System.out.println("Java Started");
+	  Java();
+	  System.out.println("Java Ended");
+  }
+}
