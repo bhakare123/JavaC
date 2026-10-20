@@ -542,3 +542,5 @@
 {"logTime": "1019/145205", "level": "INFO", "message": "PrefStore write completed: store=4, success=true"}
 {"logTime": "1019/150057", "level": "INFO", "message": "Preference changed: name=profile.content_settings.exceptions.site_engagement, new_value=[object], source=unknown"}
 {"logTime": "1019/150057", "level": "INFO", "message": "Preference changed: name=profile.last_engagement_time, new_value=\"13436866857776494\", source=unknown"}
+{"logTime": "1020/051434", "level": "INFO", "message": "Preference changed: name=profile.content_settings.exceptions.site_engagement, new_value=[object], source=unknown"}
+{"logTime": "1020/051434", "level": "INFO", "message": "Preference changed: name=profile.last_engagement_time, new_value=\"13436918074763173\", source=unknown"}

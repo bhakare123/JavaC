@@ -1,0 +1,32 @@
+package com.methodRecursion;
+
+import java.util.Scanner;
+
+public class EvenByRecursion 
+{
+  public static void main(String[] args) 
+  {
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Eneter staring number");
+	int num = sc.nextInt();
+	System.out.println("Eneter ending num");
+	int end = sc.nextInt();
+	
+	even(num,end);
+  }
+  
+  public static void even(int num, int stop)
+  {
+	  if(num>stop)
+	  {
+		  return ;
+	  }
+	  
+	  if(num%2==0)
+	  {
+		  System.out.println(num);
+	  }
+	  
+	  even(++num,stop);
+  }
+}
