@@ -1,0 +1,10 @@
+package com.constructor;
+
+public class DriverClass 
+{
+  public static void main(String[] args) 
+  {
+	PizzaApplication p = new PizzaApplication();
+	p.pizzaDetails();
+  }
+}

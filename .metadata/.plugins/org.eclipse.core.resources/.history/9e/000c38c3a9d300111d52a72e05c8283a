@@ -1,0 +1,27 @@
+package com.staticMethod;
+
+public class Demo2 
+{
+  static Demo2 d = new Demo2();
+  static 
+  {
+	  m1();
+	  d.m2();
+  }
+  
+  public static void m1()
+  {
+	  System.out.println("static method");
+  }
+  
+  public void m2()
+  {
+	  System.out.println("Non Static method");
+  }
+  
+  public void m3()
+  {
+	  d.m2();
+	  m1();
+  }
+}

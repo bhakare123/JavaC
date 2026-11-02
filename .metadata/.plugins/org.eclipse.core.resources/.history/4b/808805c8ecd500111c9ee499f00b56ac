@@ -1,0 +1,34 @@
+package com.constructor;
+
+public class Pizza 
+{
+   String pizzaSize;
+   boolean extraCheese;
+   int quantity;
+   
+   Pizza(String pizzaSize)
+   {
+	 this.pizzaSize = pizzaSize;
+	 System.out.println("Pizza Size = "+ pizzaSize);
+   } 
+   
+   Pizza(String pizzaSize, boolean extraCheese)
+   {
+	   this.pizzaSize = pizzaSize;
+	   this.extraCheese = extraCheese;
+	   
+	   System.out.print("Pizza Size = "+pizzaSize);
+	   System.out.println(" Pizza Extracheese = "+extraCheese+",");
+   }
+   
+   Pizza(String pizzaSize, boolean extraCheese, int quantity)
+   {
+	   this.pizzaSize = pizzaSize;
+	   this.extraCheese = extraCheese;
+	   this.quantity = quantity;
+	   
+	   System.out.print("Pizza Size = "+pizzaSize);
+	   System.out.print(" Pizza Extracheese = "+extraCheese+",");
+	   System.out.print(" Quantity = "+quantity);
+   }
+}
